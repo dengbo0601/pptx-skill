@@ -1,0 +1,4 @@
+interface:
+  display_name: "PPTX"
+  short_description: "Create, edit, and QA PowerPoint decks; defaults to Huawei-style when unspecified."
+  default_prompt: "Use $pptx to create a Huawei-style PowerPoint deck from my source material."
