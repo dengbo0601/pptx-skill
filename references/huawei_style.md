@@ -16,11 +16,13 @@ Use this path when the user wants Huawei-style slides or when no other visual st
 
 ## Typography
 
-- Make text as large as possible while staying inside the box.
-- Increase font size until the control nearly fills the available area.
-- Shrink only when needed to avoid clipping.
-- Prefer fewer lines and tighter copy over smaller type.
-- Apply this to body text, labels, and section headers too, not just the title.
+- Treat maximum readable typography as a hard requirement, not a finishing touch.
+- For every text element, use the largest font size that fits inside its own shape/control without clipping or crossing boundaries.
+- Apply this to body text, labels, table cells, flow nodes, captions, legends, callout bands, and conclusion bars, not just titles or section headers.
+- Start larger than seems necessary, then reduce only enough to prevent overflow after rendering.
+- Prefer shortening wording, widening the control, increasing row height, or simplifying the layout before shrinking text.
+- Avoid leaving obvious unused vertical space inside a text box while the font remains small.
+- On dense executive slides, body text should still look intentionally large and readable at full-slide view; tiny filler text is a defect.
 
 ## Content structure
 

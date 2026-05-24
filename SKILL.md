@@ -97,7 +97,7 @@ Use this style when the user asks for a Huawei look, references Huawei-branded s
 - Red tones: keep them restrained but slightly brighter than deep maroon, never bright or neon
 - Font: Microsoft YaHei for all slide text
 - Information density: high by default
-- Typography: use the largest font size that fits inside each control without clipping, including body text and labels
+- Typography: use the largest font size that fits inside each control without clipping; this is mandatory for body text, labels, table cells, flow nodes, captions, legends, callout bands, and conclusion bars, not just titles
 
 Default generation workflow:
 
@@ -108,6 +108,7 @@ Default generation workflow:
 2. Place the generated slide content into the Huawei template shell.
    - Use the bundled `assets/huawei_ppt_master.pptx` unless the user provides another template.
    - Run `python <skill_dir>/scripts/apply_huawei_template.py *_content_pptxgenjs.pptx final_output.pptx`.
+   - The template shelling script must preserve every generated slide; multi-slide decks should remain multi-slide after templating.
    - Preserve the template's master, footer, page number, confidentiality mark, and logo where appropriate.
    - Output the final presentation as the user-facing file.
 
@@ -118,7 +119,10 @@ Practical guidance:
 - Keep the rest of the slide restrained: white space, black body text, and simple alignment.
 - Avoid decorative gradients, extra bright accent colors, and noisy backgrounds.
 - If a slide uses red, make sure it is consistent across the deck and visually subdued.
-- Make fonts as large as possible within their text boxes; this applies to body text, labels, captions, and conclusion bars, not only the PPT title.
+- Make fonts as large as possible within their text boxes. Start larger than seems necessary, then shrink only enough to avoid clipping after rendered QA.
+- Prefer shortening wording, widening the control, increasing row height, or simplifying the layout before reducing font size.
+- Do not leave obvious unused vertical space inside a text box while the text is small; tiny body text is a QA defect even when it does not overflow.
+- In dense executive layouts, table cells, matrix rows, flow nodes, labels, legends, and conclusion bars must remain readable at full-slide view.
 - Do not add a top red rule unless it exists in the requested template or the user asks for one.
 - Do not add production metadata to slide content: no "Huawei Style / One Page", no source filename, no "user-provided text", no generation method, no draft labels unless requested.
 - When generating a Huawei-style deck, start from the default template shell above unless the user explicitly provides another template.
@@ -167,8 +171,10 @@ Practical guidance:
 |---------|------|
 | Slide title | 36-44pt bold |
 | Section header | 20-24pt bold |
-| Body text | 14-16pt |
-| Captions | 10-12pt muted |
+| Body text | Use the largest size that fits; normally 15-20pt on sparse slides and 9-13pt only for dense tables/matrices |
+| Captions | Use the largest size that fits; normally 11-13pt, smaller only when the caption is secondary and still readable |
+
+For generated slides, the size table is a starting point, not a cap. If a text box has spare space, increase the font size or reduce the box height until the text fills the control cleanly.
 
 ### Spacing
 
