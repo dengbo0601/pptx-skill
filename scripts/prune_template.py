@@ -117,16 +117,25 @@ def _collect_slides(zf, slide_names):
                     keep.add(_rels_path(resolved))
                 keep.update(_internal_targets(zf, resolved))
             continue
+        elif resolved in keep:
+            # Part survives via the slide closure (e.g. the kept slide's
+            # slideMaster): its presentation-level relationship must too.
+            continue
         rel.parentNode.removeChild(rel)
     keep.add(pres_rels)
     return keep, doc
 
 
-def _prune_presentation_xml(files, keep):
-    """Drop sldMasterId/sldId entries whose part was pruned."""
+def _prune_presentation_xml(files, keep, original_rels_xml):
+    """Drop sldMasterId/sldId entries whose part was pruned.
+
+    Ids are resolved against the ORIGINAL rels (the rewritten rels doc has
+    already dropped pruned entries, which would make those rIds unresolvable
+    and leave dangling sldMasterId/sldId entries behind).
+    """
     name = "ppt/presentation.xml"
     doc = _parse_xml(files[name])
-    rels_doc = _parse_xml(files["ppt/_rels/presentation.xml.rels"])
+    rels_doc = _parse_xml(original_rels_xml)
     target_by_rid = {
         n.getAttribute("Id"): n.getAttribute("Target")
         for n in rels_doc.getElementsByTagName("Relationship")
@@ -199,6 +208,7 @@ def prune_template(input_pptx, output_pptx, slide_names=None):
             raise ValueError("Template has no slides to keep")
 
         keep, pres_rels_doc = _collect_slides(zf, slide_names)
+        original_pres_rels = zf.read("ppt/_rels/presentation.xml.rels")
 
         files = {}
         removed = []
@@ -216,7 +226,7 @@ def prune_template(input_pptx, output_pptx, slide_names=None):
 
         files["ppt/_rels/presentation.xml.rels"] = pres_rels_doc.toxml(encoding="utf-8")
         keep.add("ppt/_rels/presentation.xml.rels")
-        _prune_presentation_xml(files, keep)
+        _prune_presentation_xml(files, keep, original_pres_rels)
         _drop_thumbnail(files, keep)
         _prune_content_types(files, keep)
 
