@@ -52,6 +52,8 @@ When using an existing presentation as a template:
 | `clean.py` | Remove orphaned files |
 | `pack.py` | Repack with validation |
 | `thumbnail.py` | Create visual grid of slides |
+| `apply_huawei_template.py` | Wrap a content deck in the Huawei master shell; merges slide rels and migrates images, charts, and hyperlinks |
+| `prune_template.py` | Drop unused master/layout/theme chains from a template PPTX |
 
 ### unpack.py
 
