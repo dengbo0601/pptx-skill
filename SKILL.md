@@ -102,6 +102,7 @@ Use this style when the user asks for a Huawei look, references Huawei-branded s
 Default generation workflow:
 
 1. Generate a content-only slide deck with `pptxgenjs`.
+   - **Pick a proven layout first**: read [references/huawei_layouts.md](references/huawei_layouts.md), choose one of the six layout archetypes by content semantics (3-col card matrix / 2-col split / dense architecture grid / full-width bands / hub / timeline), then cross-check density targets (≈600 chars/page, 3 bands, cards-not-tables, small icons only) against `assets/huawei_layout_catalog.json` representative cards.
    - The content deck owns layout, text, shapes, KPI cards, matrices, flows, charts, and other editable content.
    - Name it like `*_content_pptxgenjs.pptx`.
    - Keep it free of template-specific footer/logo elements.

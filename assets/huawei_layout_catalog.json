@@ -1,0 +1,1517 @@
+{
+ "version": "1.0",
+ "source": "distilled from huawei-ppt-generator learned/huawei_template_library (58 slides, 模板.pptx)",
+ "usage": "Pick a card as layout reference by structure.kind / density, then re-implement with pptxgenjs in the content deck; do not copy raw coordinates.",
+ "stats": {
+  "chars": {
+   "min": 300,
+   "median": 597,
+   "max": 1160
+  },
+  "text_shapes_median": 33,
+  "pictures_median": 2,
+  "image_area_ratio_median": 0.005
+ },
+ "cards": [
+  {
+   "template_id": "template_slide_001",
+   "title": "锚定十五五规划，以数智化驱动产业升级",
+   "slide_no": 1,
+   "structure": {
+    "bands": 2,
+    "max_columns": 3,
+    "section_headings": 9,
+    "body_blocks": 8,
+    "has_conclusion_band": false,
+    "has_tag": false,
+    "kind": "hub",
+    "signature": "2带/3列/1图标"
+   },
+   "density": {
+    "chars": 502,
+    "text_shapes": 23,
+    "pictures": 1,
+    "connectors": 8,
+    "groups": 3,
+    "image_area_ratio": 0.025
+   },
+   "title_geometry": {
+    "y": 0.25,
+    "h": 0.92,
+    "fontSize": 24.0
+   }
+  },
+  {
+   "template_id": "template_slide_002",
+   "title": "应对高质量发展新挑战 识别管理者核心能力",
+   "slide_no": 2,
+   "structure": {
+    "bands": 4,
+    "max_columns": 4,
+    "section_headings": 0,
+    "body_blocks": 15,
+    "has_conclusion_band": false,
+    "has_tag": false,
+    "kind": "4-col",
+    "signature": "4带/4列×3/6图标"
+   },
+   "density": {
+    "chars": 461,
+    "text_shapes": 24,
+    "pictures": 6,
+    "connectors": 5,
+    "groups": 13,
+    "image_area_ratio": 0.027
+   },
+   "title_geometry": {
+    "y": 0.25,
+    "h": 0.92,
+    "fontSize": 24.0
+   }
+  },
+  {
+   "template_id": "template_slide_003",
+   "title": "2026华为行业数智化领导力解决方案架构",
+   "slide_no": 3,
+   "structure": {
+    "bands": 4,
+    "max_columns": 5,
+    "section_headings": 10,
+    "body_blocks": 12,
+    "has_conclusion_band": false,
+    "has_tag": false,
+    "kind": "5-col",
+    "signature": "4带/5列×3/11图标"
+   },
+   "density": {
+    "chars": 390,
+    "text_shapes": 42,
+    "pictures": 11,
+    "connectors": 0,
+    "groups": 49,
+    "image_area_ratio": 0.073
+   },
+   "title_geometry": {
+    "y": 0.25,
+    "h": 0.92,
+    "fontSize": 24.0
+   }
+  },
+  {
+   "template_id": "template_slide_004",
+   "title": "AI趋势洞察：高层看方向、中层明场景、业务与技术团队促落地",
+   "slide_no": 4,
+   "structure": {
+    "bands": 3,
+    "max_columns": 3,
+    "section_headings": 5,
+    "body_blocks": 16,
+    "has_conclusion_band": false,
+    "has_tag": true,
+    "kind": "3-col",
+    "signature": "3带/3列×3/tag/5图标"
+   },
+   "density": {
+    "chars": 478,
+    "text_shapes": 35,
+    "pictures": 5,
+    "connectors": 0,
+    "groups": 10,
+    "image_area_ratio": 0.113
+   },
+   "title_geometry": {
+    "y": 0.25,
+    "h": 0.92,
+    "fontSize": 24.0
+   }
+  },
+  {
+   "template_id": "template_slide_005",
+   "title": "AI大模型高研班：思想对齐、明晰方向, 做AI大模型的引领者",
+   "slide_no": 5,
+   "structure": {
+    "bands": 3,
+    "max_columns": 2,
+    "section_headings": 4,
+    "body_blocks": 7,
+    "has_conclusion_band": false,
+    "has_tag": true,
+    "kind": "2-col",
+    "signature": "3带/2列×3/tag/2图标"
+   },
+   "density": {
+    "chars": 608,
+    "text_shapes": 48,
+    "pictures": 2,
+    "connectors": 1,
+    "groups": 13,
+    "image_area_ratio": 0.001
+   },
+   "title_geometry": {
+    "y": 0.25,
+    "h": 0.92,
+    "fontSize": 24.0
+   }
+  },
+  {
+   "template_id": "template_slide_006",
+   "title": "AI场景识别与规划精研班：识别AI高价值场景，助力企业智能化转型升级",
+   "slide_no": 6,
+   "structure": {
+    "bands": 1,
+    "max_columns": 1,
+    "section_headings": 3,
+    "body_blocks": 22,
+    "has_conclusion_band": false,
+    "has_tag": true,
+    "kind": "full-width blocks",
+    "signature": "1带/1列/tag/3图标"
+   },
+   "density": {
+    "chars": 683,
+    "text_shapes": 39,
+    "pictures": 3,
+    "connectors": 0,
+    "groups": 18,
+    "image_area_ratio": 0.002
+   },
+   "title_geometry": {
+    "y": 0.25,
+    "h": 0.92,
+    "fontSize": 24.0
+   }
+  },
+  {
+   "template_id": "template_slide_007",
+   "title": "战略到执行方案总述：方向大致正确，组织充满活力，步步为营，长期有效增长",
+   "slide_no": 7,
+   "structure": {
+    "bands": 3,
+    "max_columns": 3,
+    "section_headings": 2,
+    "body_blocks": 7,
+    "has_conclusion_band": false,
+    "has_tag": true,
+    "kind": "3-col",
+    "signature": "3带/3列×3/tag/4图标"
+   },
+   "density": {
+    "chars": 475,
+    "text_shapes": 51,
+    "pictures": 4,
+    "connectors": 4,
+    "groups": 24,
+    "image_area_ratio": 0.002
+   },
+   "title_geometry": {
+    "y": 0.25,
+    "h": 0.92,
+    "fontSize": 24.0
+   }
+  },
+  {
+   "template_id": "template_slide_008",
+   "title": "战略管理高研班：由单点到系统，夯实企业战略到落地执行的闭环路径",
+   "slide_no": 8,
+   "structure": {
+    "bands": 3,
+    "max_columns": 2,
+    "section_headings": 5,
+    "body_blocks": 27,
+    "has_conclusion_band": true,
+    "has_tag": true,
+    "kind": "2-col",
+    "signature": "3带/2列×3/结论带/tag/2图标"
+   },
+   "density": {
+    "chars": 809,
+    "text_shapes": 54,
+    "pictures": 2,
+    "connectors": 2,
+    "groups": 19,
+    "image_area_ratio": 0.0
+   },
+   "title_geometry": {
+    "y": 0.25,
+    "h": 0.92,
+    "fontSize": 24.0
+   }
+  },
+  {
+   "template_id": "template_slide_009",
+   "title": "战略解码实战精研班：将战略目标转化可落地、可执行的任务",
+   "slide_no": 9,
+   "structure": {
+    "bands": 3,
+    "max_columns": 3,
+    "section_headings": 5,
+    "body_blocks": 7,
+    "has_conclusion_band": false,
+    "has_tag": true,
+    "kind": "3-col",
+    "signature": "3带/3列×3/tag/2图标"
+   },
+   "density": {
+    "chars": 463,
+    "text_shapes": 28,
+    "pictures": 2,
+    "connectors": 1,
+    "groups": 17,
+    "image_area_ratio": 0.0
+   },
+   "title_geometry": {
+    "y": 0.25,
+    "h": 0.92,
+    "fontSize": 24.0
+   }
+  },
+  {
+   "template_id": "template_slide_010",
+   "title": "企业数智化转型价值流",
+   "slide_no": 10,
+   "structure": {
+    "bands": 3,
+    "max_columns": 1,
+    "section_headings": 1,
+    "body_blocks": 13,
+    "has_conclusion_band": false,
+    "has_tag": true,
+    "kind": "full-width blocks",
+    "signature": "3带/1列×3/tag"
+   },
+   "density": {
+    "chars": 488,
+    "text_shapes": 28,
+    "pictures": 0,
+    "connectors": 0,
+    "groups": 12,
+    "image_area_ratio": 0.0
+   },
+   "title_geometry": null
+  },
+  {
+   "template_id": "template_slide_011",
+   "title": "方案收益",
+   "slide_no": 11,
+   "structure": {
+    "bands": 3,
+    "max_columns": 2,
+    "section_headings": 4,
+    "body_blocks": 24,
+    "has_conclusion_band": false,
+    "has_tag": true,
+    "kind": "2-col",
+    "signature": "3带/2列×3/tag/2图标"
+   },
+   "density": {
+    "chars": 777,
+    "text_shapes": 54,
+    "pictures": 2,
+    "connectors": 0,
+    "groups": 22,
+    "image_area_ratio": 0.001
+   },
+   "title_geometry": null
+  },
+  {
+   "template_id": "template_slide_012",
+   "title": "方案收益",
+   "slide_no": 12,
+   "structure": {
+    "bands": 3,
+    "max_columns": 3,
+    "section_headings": 4,
+    "body_blocks": 13,
+    "has_conclusion_band": true,
+    "has_tag": true,
+    "kind": "3-col",
+    "signature": "3带/3列×3/结论带/tag/3图标"
+   },
+   "density": {
+    "chars": 599,
+    "text_shapes": 54,
+    "pictures": 3,
+    "connectors": 0,
+    "groups": 17,
+    "image_area_ratio": 0.037
+   },
+   "title_geometry": null
+  },
+  {
+   "template_id": "template_slide_013",
+   "title": "方案收益",
+   "slide_no": 13,
+   "structure": {
+    "bands": 3,
+    "max_columns": 3,
+    "section_headings": 4,
+    "body_blocks": 6,
+    "has_conclusion_band": true,
+    "has_tag": true,
+    "kind": "3-col",
+    "signature": "3带/3列×3/结论带/tag/2图标"
+   },
+   "density": {
+    "chars": 544,
+    "text_shapes": 59,
+    "pictures": 2,
+    "connectors": 0,
+    "groups": 26,
+    "image_area_ratio": 0.001
+   },
+   "title_geometry": null
+  },
+  {
+   "template_id": "template_slide_014",
+   "title": "新形势下，华为干部使命与责任",
+   "slide_no": 14,
+   "structure": {
+    "bands": 2,
+    "max_columns": 3,
+    "section_headings": 2,
+    "body_blocks": 20,
+    "has_conclusion_band": false,
+    "has_tag": true,
+    "kind": "3-col",
+    "signature": "2带/3列×2/tag/6图标"
+   },
+   "density": {
+    "chars": 652,
+    "text_shapes": 42,
+    "pictures": 6,
+    "connectors": 3,
+    "groups": 15,
+    "image_area_ratio": 0.004
+   },
+   "title_geometry": null
+  },
+  {
+   "template_id": "template_slide_015",
+   "title": "适用对象",
+   "slide_no": 15,
+   "structure": {
+    "bands": 4,
+    "max_columns": 3,
+    "section_headings": 5,
+    "body_blocks": 15,
+    "has_conclusion_band": false,
+    "has_tag": true,
+    "kind": "3-col",
+    "signature": "4带/3列×4/tag/2图标"
+   },
+   "density": {
+    "chars": 594,
+    "text_shapes": 46,
+    "pictures": 2,
+    "connectors": 1,
+    "groups": 20,
+    "image_area_ratio": 0.0
+   },
+   "title_geometry": null
+  },
+  {
+   "template_id": "template_slide_016",
+   "title": "适用对象",
+   "slide_no": 16,
+   "structure": {
+    "bands": 4,
+    "max_columns": 2,
+    "section_headings": 5,
+    "body_blocks": 21,
+    "has_conclusion_band": true,
+    "has_tag": true,
+    "kind": "2-col",
+    "signature": "4带/2列×4/结论带/tag/2图标"
+   },
+   "density": {
+    "chars": 563,
+    "text_shapes": 41,
+    "pictures": 2,
+    "connectors": 1,
+    "groups": 21,
+    "image_area_ratio": 0.0
+   },
+   "title_geometry": null
+  },
+  {
+   "template_id": "template_slide_017",
+   "title": "数智人才战略解码精研班",
+   "slide_no": 17,
+   "structure": {
+    "bands": 2,
+    "max_columns": 1,
+    "section_headings": 5,
+    "body_blocks": 15,
+    "has_conclusion_band": false,
+    "has_tag": true,
+    "kind": "full-width blocks",
+    "signature": "2带/1列×2/tag/1图标"
+   },
+   "density": {
+    "chars": 664,
+    "text_shapes": 32,
+    "pictures": 1,
+    "connectors": 1,
+    "groups": 17,
+    "image_area_ratio": 0.0
+   },
+   "title_geometry": null
+  },
+  {
+   "template_id": "template_slide_018",
+   "title": "适用对象",
+   "slide_no": 18,
+   "structure": {
+    "bands": 2,
+    "max_columns": 3,
+    "section_headings": 5,
+    "body_blocks": 15,
+    "has_conclusion_band": false,
+    "has_tag": true,
+    "kind": "3-col",
+    "signature": "2带/3列×2/tag/3图标"
+   },
+   "density": {
+    "chars": 799,
+    "text_shapes": 49,
+    "pictures": 3,
+    "connectors": 2,
+    "groups": 25,
+    "image_area_ratio": 0.001
+   },
+   "title_geometry": null
+  },
+  {
+   "template_id": "template_slide_019",
+   "title": "个人绩效管理能力提升精研班",
+   "slide_no": 19,
+   "structure": {
+    "bands": 4,
+    "max_columns": 3,
+    "section_headings": 5,
+    "body_blocks": 12,
+    "has_conclusion_band": false,
+    "has_tag": true,
+    "kind": "3-col",
+    "signature": "4带/3列×4/tag/2图标"
+   },
+   "density": {
+    "chars": 416,
+    "text_shapes": 33,
+    "pictures": 2,
+    "connectors": 2,
+    "groups": 24,
+    "image_area_ratio": 0.0
+   },
+   "title_geometry": {
+    "y": 0.25,
+    "h": 0.92,
+    "fontSize": 24.0
+   }
+  },
+  {
+   "template_id": "template_slide_020",
+   "title": "建设以项目为中心的作战体系、全面提升企业项目运作与管理水平",
+   "slide_no": 20,
+   "structure": {
+    "bands": 3,
+    "max_columns": 2,
+    "section_headings": 1,
+    "body_blocks": 13,
+    "has_conclusion_band": false,
+    "has_tag": false,
+    "kind": "2-col",
+    "signature": "3带/2列×2/6图标"
+   },
+   "density": {
+    "chars": 551,
+    "text_shapes": 36,
+    "pictures": 6,
+    "connectors": 2,
+    "groups": 19,
+    "image_area_ratio": 0.005
+   },
+   "title_geometry": {
+    "y": 0.25,
+    "h": 0.92,
+    "fontSize": 24.0
+   }
+  },
+  {
+   "template_id": "template_slide_021",
+   "title": "组织级项目管理能力提升：将项目管理从“战术工具”升级为“战略执行引擎”",
+   "slide_no": 21,
+   "structure": {
+    "bands": 1,
+    "max_columns": 1,
+    "section_headings": 5,
+    "body_blocks": 15,
+    "has_conclusion_band": false,
+    "has_tag": true,
+    "kind": "full-width blocks",
+    "signature": "1带/1列/tag/1图标"
+   },
+   "density": {
+    "chars": 619,
+    "text_shapes": 31,
+    "pictures": 1,
+    "connectors": 2,
+    "groups": 14,
+    "image_area_ratio": 0.0
+   },
+   "title_geometry": {
+    "y": 0.25,
+    "h": 0.92,
+    "fontSize": 24.0
+   }
+  },
+  {
+   "template_id": "template_slide_022",
+   "title": "研发项目管理精研班： 共享华为研发管理智慧，提升产品开发能力，打造高价值产品",
+   "slide_no": 22,
+   "structure": {
+    "bands": 3,
+    "max_columns": 2,
+    "section_headings": 5,
+    "body_blocks": 14,
+    "has_conclusion_band": false,
+    "has_tag": true,
+    "kind": "2-col",
+    "signature": "3带/2列×3/tag/1图标"
+   },
+   "density": {
+    "chars": 636,
+    "text_shapes": 32,
+    "pictures": 1,
+    "connectors": 2,
+    "groups": 15,
+    "image_area_ratio": 0.0
+   },
+   "title_geometry": {
+    "y": 0.25,
+    "h": 0.92,
+    "fontSize": 24.0
+   }
+  },
+  {
+   "template_id": "template_slide_023",
+   "title": "敏捷开发项目管理精研班：团队高效响应、快速迭代、持续创造客户价值",
+   "slide_no": 23,
+   "structure": {
+    "bands": 5,
+    "max_columns": 3,
+    "section_headings": 1,
+    "body_blocks": 20,
+    "has_conclusion_band": false,
+    "has_tag": true,
+    "kind": "3-col",
+    "signature": "5带/3列×5/tag/2图标"
+   },
+   "density": {
+    "chars": 757,
+    "text_shapes": 33,
+    "pictures": 2,
+    "connectors": 1,
+    "groups": 16,
+    "image_area_ratio": 0.0
+   },
+   "title_geometry": {
+    "y": 0.25,
+    "h": 0.92,
+    "fontSize": 24.0
+   }
+  },
+  {
+   "template_id": "template_slide_024",
+   "title": "AI重塑项目管理：重新定义项目管理未来的变革力量",
+   "slide_no": 24,
+   "structure": {
+    "bands": 3,
+    "max_columns": 3,
+    "section_headings": 1,
+    "body_blocks": 11,
+    "has_conclusion_band": false,
+    "has_tag": true,
+    "kind": "3-col",
+    "signature": "3带/3列×3/tag/2图标"
+   },
+   "density": {
+    "chars": 678,
+    "text_shapes": 24,
+    "pictures": 2,
+    "connectors": 1,
+    "groups": 16,
+    "image_area_ratio": 0.0
+   },
+   "title_geometry": {
+    "y": 0.25,
+    "h": 0.92,
+    "fontSize": 24.0
+   }
+  },
+  {
+   "template_id": "template_slide_025",
+   "title": "AI知识管理高研班：为企业构建知识引擎，让员工更聪明地工作，让业务作战胜利",
+   "slide_no": 25,
+   "structure": {
+    "bands": 2,
+    "max_columns": 2,
+    "section_headings": 3,
+    "body_blocks": 15,
+    "has_conclusion_band": false,
+    "has_tag": true,
+    "kind": "2-col",
+    "signature": "2带/2列×2/tag"
+   },
+   "density": {
+    "chars": 637,
+    "text_shapes": 45,
+    "pictures": 0,
+    "connectors": 1,
+    "groups": 1,
+    "image_area_ratio": 0.0
+   },
+   "title_geometry": {
+    "y": 0.25,
+    "h": 0.92,
+    "fontSize": 24.0
+   }
+  },
+  {
+   "template_id": "template_slide_026",
+   "title": "华为项目管理认证培训：步步为赢夯实项目实战能力",
+   "slide_no": 26,
+   "structure": {
+    "bands": 4,
+    "max_columns": 3,
+    "section_headings": 6,
+    "body_blocks": 7,
+    "has_conclusion_band": false,
+    "has_tag": true,
+    "kind": "3-col",
+    "signature": "4带/3列×4/tag/9图标"
+   },
+   "density": {
+    "chars": 664,
+    "text_shapes": 30,
+    "pictures": 9,
+    "connectors": 3,
+    "groups": 8,
+    "image_area_ratio": 0.05
+   },
+   "title_geometry": {
+    "y": 0.25,
+    "h": 0.92,
+    "fontSize": 24.0
+   }
+  },
+  {
+   "template_id": "template_slide_027",
+   "title": "销售组织能力提升学习方案： 以销售流程规则的确定性和组织协同应对销售结果的不确定性",
+   "slide_no": 27,
+   "structure": {
+    "bands": 4,
+    "max_columns": 4,
+    "section_headings": 5,
+    "body_blocks": 8,
+    "has_conclusion_band": true,
+    "has_tag": true,
+    "kind": "4-col",
+    "signature": "4带/4列×4/结论带/tag/2图标"
+   },
+   "density": {
+    "chars": 587,
+    "text_shapes": 34,
+    "pictures": 2,
+    "connectors": 1,
+    "groups": 17,
+    "image_area_ratio": 0.0
+   },
+   "title_geometry": {
+    "y": 0.25,
+    "h": 0.92,
+    "fontSize": 24.0
+   }
+  },
+  {
+   "template_id": "template_slide_028",
+   "title": "大客户拓展精研班：打下灯塔项目，照亮行业方向，带动广阔市场",
+   "slide_no": 28,
+   "structure": {
+    "bands": 3,
+    "max_columns": 2,
+    "section_headings": 5,
+    "body_blocks": 11,
+    "has_conclusion_band": false,
+    "has_tag": true,
+    "kind": "2-col",
+    "signature": "3带/2列×3/tag/2图标"
+   },
+   "density": {
+    "chars": 497,
+    "text_shapes": 42,
+    "pictures": 2,
+    "connectors": 1,
+    "groups": 21,
+    "image_area_ratio": 0.0
+   },
+   "title_geometry": {
+    "y": 0.25,
+    "h": 0.92,
+    "fontSize": 24.0
+   }
+  },
+  {
+   "template_id": "template_slide_029",
+   "title": "高级销售培训方案 ：将销售管理艺术转化为科学的方法，提升销售组织能力",
+   "slide_no": 29,
+   "structure": {
+    "bands": 5,
+    "max_columns": 4,
+    "section_headings": 5,
+    "body_blocks": 8,
+    "has_conclusion_band": true,
+    "has_tag": true,
+    "kind": "4-col",
+    "signature": "5带/4列×5/结论带/tag/2图标"
+   },
+   "density": {
+    "chars": 498,
+    "text_shapes": 39,
+    "pictures": 2,
+    "connectors": 1,
+    "groups": 17,
+    "image_area_ratio": 0.0
+   },
+   "title_geometry": {
+    "y": 0.25,
+    "h": 0.92,
+    "fontSize": 24.0
+   }
+  },
+  {
+   "template_id": "template_slide_030",
+   "title": "人才发展服务：从学习发展体系建设规划到培训落地，助力企业升级学发造血机制，让培训工作更加体系化，实效化",
+   "slide_no": 30,
+   "structure": {
+    "bands": 4,
+    "max_columns": 2,
+    "section_headings": 6,
+    "body_blocks": 7,
+    "has_conclusion_band": false,
+    "has_tag": true,
+    "kind": "2-col",
+    "signature": "4带/2列×4/tag"
+   },
+   "density": {
+    "chars": 300,
+    "text_shapes": 25,
+    "pictures": 0,
+    "connectors": 0,
+    "groups": 6,
+    "image_area_ratio": 0.0
+   },
+   "title_geometry": {
+    "y": 0.25,
+    "h": 0.92,
+    "fontSize": 24.0
+   }
+  },
+  {
+   "template_id": "template_slide_031",
+   "title": "学习发展体系规划——专业任职资格管理体系建设精研班",
+   "slide_no": 31,
+   "structure": {
+    "bands": 3,
+    "max_columns": 2,
+    "section_headings": 5,
+    "body_blocks": 17,
+    "has_conclusion_band": true,
+    "has_tag": true,
+    "kind": "hub",
+    "signature": "3带/2列×3/结论带/tag/2图标"
+   },
+   "density": {
+    "chars": 473,
+    "text_shapes": 47,
+    "pictures": 2,
+    "connectors": 6,
+    "groups": 68,
+    "image_area_ratio": 0.0
+   },
+   "title_geometry": {
+    "y": 0.25,
+    "h": 0.92,
+    "fontSize": 24.0
+   }
+  },
+  {
+   "template_id": "template_slide_032",
+   "title": "从能力要求到培训规划——数智人才培养体系规划服务",
+   "slide_no": 32,
+   "structure": {
+    "bands": 4,
+    "max_columns": 3,
+    "section_headings": 5,
+    "body_blocks": 16,
+    "has_conclusion_band": false,
+    "has_tag": true,
+    "kind": "hub",
+    "signature": "4带/3列×4/tag/2图标"
+   },
+   "density": {
+    "chars": 605,
+    "text_shapes": 77,
+    "pictures": 2,
+    "connectors": 14,
+    "groups": 20,
+    "image_area_ratio": 0.0
+   },
+   "title_geometry": {
+    "y": 0.25,
+    "h": 0.92,
+    "fontSize": 24.0
+   }
+  },
+  {
+   "template_id": "template_slide_033",
+   "title": "从能力要求到培训规划——ICT人才技能测评服务",
+   "slide_no": 33,
+   "structure": {
+    "bands": 3,
+    "max_columns": 3,
+    "section_headings": 5,
+    "body_blocks": 11,
+    "has_conclusion_band": false,
+    "has_tag": true,
+    "kind": "3-col",
+    "signature": "3带/3列×3/tag/5图标"
+   },
+   "density": {
+    "chars": 430,
+    "text_shapes": 31,
+    "pictures": 5,
+    "connectors": 1,
+    "groups": 21,
+    "image_area_ratio": 0.052
+   },
+   "title_geometry": {
+    "y": 0.25,
+    "h": 0.92,
+    "fontSize": 24.0
+   }
+  },
+  {
+   "template_id": "template_slide_034",
+   "title": "从培训规划到培训落地——培训经理训战赋能精研班",
+   "slide_no": 34,
+   "structure": {
+    "bands": 3,
+    "max_columns": 2,
+    "section_headings": 5,
+    "body_blocks": 13,
+    "has_conclusion_band": false,
+    "has_tag": true,
+    "kind": "hub",
+    "signature": "3带/2列×3/tag/2图标"
+   },
+   "density": {
+    "chars": 595,
+    "text_shapes": 49,
+    "pictures": 2,
+    "connectors": 8,
+    "groups": 18,
+    "image_area_ratio": 0.0
+   },
+   "title_geometry": {
+    "y": 0.25,
+    "h": 0.92,
+    "fontSize": 24.0
+   }
+  },
+  {
+   "template_id": "template_slide_035",
+   "title": "出海发展组织能力提升：坚定客户走出去信念，强化机制管理和风险防范，让出海更高效安全",
+   "slide_no": 35,
+   "structure": {
+    "bands": 2,
+    "max_columns": 2,
+    "section_headings": 1,
+    "body_blocks": 12,
+    "has_conclusion_band": false,
+    "has_tag": true,
+    "kind": "2-col",
+    "signature": "2带/2列×2/tag/2图标"
+   },
+   "density": {
+    "chars": 501,
+    "text_shapes": 26,
+    "pictures": 2,
+    "connectors": 0,
+    "groups": 2,
+    "image_area_ratio": 0.025
+   },
+   "title_geometry": {
+    "y": 0.25,
+    "h": 0.92,
+    "fontSize": 24.0
+   }
+  },
+  {
+   "template_id": "template_slide_036",
+   "title": "“出海市场拓展”学习方案：帮助中国企业“走出去”，建基地拓市场",
+   "slide_no": 36,
+   "structure": {
+    "bands": 4,
+    "max_columns": 3,
+    "section_headings": 5,
+    "body_blocks": 10,
+    "has_conclusion_band": false,
+    "has_tag": true,
+    "kind": "3-col",
+    "signature": "4带/3列×4/tag/2图标"
+   },
+   "density": {
+    "chars": 678,
+    "text_shapes": 45,
+    "pictures": 2,
+    "connectors": 1,
+    "groups": 16,
+    "image_area_ratio": 0.0
+   },
+   "title_geometry": {
+    "y": 0.25,
+    "h": 0.92,
+    "fontSize": 24.0
+   }
+  },
+  {
+   "template_id": "template_slide_037",
+   "title": "适用对象",
+   "slide_no": 37,
+   "structure": {
+    "bands": 3,
+    "max_columns": 3,
+    "section_headings": 5,
+    "body_blocks": 22,
+    "has_conclusion_band": false,
+    "has_tag": true,
+    "kind": "3-col",
+    "signature": "3带/3列×3/tag/2图标"
+   },
+   "density": {
+    "chars": 646,
+    "text_shapes": 42,
+    "pictures": 2,
+    "connectors": 1,
+    "groups": 20,
+    "image_area_ratio": 0.0
+   },
+   "title_geometry": null
+  },
+  {
+   "template_id": "template_slide_038",
+   "title": "适用对象",
+   "slide_no": 38,
+   "structure": {
+    "bands": 3,
+    "max_columns": 2,
+    "section_headings": 5,
+    "body_blocks": 15,
+    "has_conclusion_band": false,
+    "has_tag": true,
+    "kind": "2-col",
+    "signature": "3带/2列×3/tag/2图标"
+   },
+   "density": {
+    "chars": 712,
+    "text_shapes": 34,
+    "pictures": 2,
+    "connectors": 1,
+    "groups": 18,
+    "image_area_ratio": 0.0
+   },
+   "title_geometry": null
+  },
+  {
+   "template_id": "template_slide_039",
+   "title": "方案建议",
+   "slide_no": 39,
+   "structure": {
+    "bands": 3,
+    "max_columns": 3,
+    "section_headings": 2,
+    "body_blocks": 22,
+    "has_conclusion_band": true,
+    "has_tag": true,
+    "kind": "3-col",
+    "signature": "3带/3列×3/结论带/tag/7图标"
+   },
+   "density": {
+    "chars": 578,
+    "text_shapes": 41,
+    "pictures": 7,
+    "connectors": 3,
+    "groups": 8,
+    "image_area_ratio": 0.073
+   },
+   "title_geometry": null
+  },
+  {
+   "template_id": "template_slide_040",
+   "title": "适用场景",
+   "slide_no": 40,
+   "structure": {
+    "bands": 3,
+    "max_columns": 3,
+    "section_headings": 9,
+    "body_blocks": 12,
+    "has_conclusion_band": false,
+    "has_tag": true,
+    "kind": "3-col",
+    "signature": "3带/3列×3/tag/3图标"
+   },
+   "density": {
+    "chars": 638,
+    "text_shapes": 36,
+    "pictures": 3,
+    "connectors": 0,
+    "groups": 12,
+    "image_area_ratio": 0.054
+   },
+   "title_geometry": null
+  },
+  {
+   "template_id": "template_slide_041",
+   "title": "方案架构",
+   "slide_no": 41,
+   "structure": {
+    "bands": 2,
+    "max_columns": 2,
+    "section_headings": 5,
+    "body_blocks": 10,
+    "has_conclusion_band": false,
+    "has_tag": true,
+    "kind": "hub",
+    "signature": "2带/2列×2/tag/3图标"
+   },
+   "density": {
+    "chars": 641,
+    "text_shapes": 30,
+    "pictures": 3,
+    "connectors": 8,
+    "groups": 18,
+    "image_area_ratio": 0.054
+   },
+   "title_geometry": null
+  },
+  {
+   "template_id": "template_slide_042",
+   "title": "方案架构",
+   "slide_no": 42,
+   "structure": {
+    "bands": 3,
+    "max_columns": 2,
+    "section_headings": 5,
+    "body_blocks": 8,
+    "has_conclusion_band": false,
+    "has_tag": true,
+    "kind": "2-col",
+    "signature": "3带/2列×3/tag/9图标"
+   },
+   "density": {
+    "chars": 382,
+    "text_shapes": 24,
+    "pictures": 9,
+    "connectors": 3,
+    "groups": 21,
+    "image_area_ratio": 0.149
+   },
+   "title_geometry": null
+  },
+  {
+   "template_id": "template_slide_043",
+   "title": "案例-高层",
+   "slide_no": 43,
+   "structure": {
+    "bands": 3,
+    "max_columns": 2,
+    "section_headings": 2,
+    "body_blocks": 13,
+    "has_conclusion_band": false,
+    "has_tag": true,
+    "kind": "hub",
+    "signature": "3带/2列×3/tag/1图标"
+   },
+   "density": {
+    "chars": 566,
+    "text_shapes": 21,
+    "pictures": 1,
+    "connectors": 6,
+    "groups": 7,
+    "image_area_ratio": 0.105
+   },
+   "title_geometry": null
+  },
+  {
+   "template_id": "template_slide_044",
+   "title": "AI趋势洞察案例-中层",
+   "slide_no": 44,
+   "structure": {
+    "bands": 2,
+    "max_columns": 1,
+    "section_headings": 6,
+    "body_blocks": 21,
+    "has_conclusion_band": false,
+    "has_tag": true,
+    "kind": "hub",
+    "signature": "2带/1列×2/tag/12图标"
+   },
+   "density": {
+    "chars": 924,
+    "text_shapes": 56,
+    "pictures": 12,
+    "connectors": 11,
+    "groups": 3,
+    "image_area_ratio": 0.098
+   },
+   "title_geometry": null
+  },
+  {
+   "template_id": "template_slide_045",
+   "title": "案例-中层",
+   "slide_no": 45,
+   "structure": {
+    "bands": 1,
+    "max_columns": 1,
+    "section_headings": 4,
+    "body_blocks": 32,
+    "has_conclusion_band": false,
+    "has_tag": true,
+    "kind": "full-width blocks",
+    "signature": "1带/1列/tag/4图标"
+   },
+   "density": {
+    "chars": 1160,
+    "text_shapes": 51,
+    "pictures": 4,
+    "connectors": 1,
+    "groups": 3,
+    "image_area_ratio": 0.045
+   },
+   "title_geometry": null
+  },
+  {
+   "template_id": "template_slide_046",
+   "title": "案例-体系化",
+   "slide_no": 46,
+   "structure": {
+    "bands": 1,
+    "max_columns": 1,
+    "section_headings": 5,
+    "body_blocks": 15,
+    "has_conclusion_band": false,
+    "has_tag": true,
+    "kind": "hub",
+    "signature": "1带/1列/tag/4图标"
+   },
+   "density": {
+    "chars": 734,
+    "text_shapes": 31,
+    "pictures": 4,
+    "connectors": 11,
+    "groups": 18,
+    "image_area_ratio": 0.056
+   },
+   "title_geometry": null
+  },
+  {
+   "template_id": "template_slide_047",
+   "title": "A机场为落实集团战略，提升战略解码能力和跨组织协同效能，并推动集团战略部署落地见效，举办了集团战略解码和目标达成与业务改进的系列化实战精研班。一方面凝聚共识、打",
+   "slide_no": 47,
+   "structure": {
+    "bands": 1,
+    "max_columns": 1,
+    "section_headings": 4,
+    "body_blocks": 5,
+    "has_conclusion_band": false,
+    "has_tag": false,
+    "kind": "full-width blocks",
+    "signature": "1带/1列/1图标"
+   },
+   "density": {
+    "chars": 516,
+    "text_shapes": 27,
+    "pictures": 1,
+    "connectors": 0,
+    "groups": 9,
+    "image_area_ratio": 0.092
+   },
+   "title_geometry": null
+  },
+  {
+   "template_id": "template_slide_048",
+   "title": "公司近两年引入战略规划与执行的方法工具，在推行过程中，出现运作效率低，管理层思维难转变、上下难以达成一致等问题。因此，希望引入战略到执行成功运作经验，提升高管战",
+   "slide_no": 48,
+   "structure": {
+    "bands": 3,
+    "max_columns": 4,
+    "section_headings": 3,
+    "body_blocks": 10,
+    "has_conclusion_band": false,
+    "has_tag": false,
+    "kind": "4-col",
+    "signature": "3带/4列×3/2图标"
+   },
+   "density": {
+    "chars": 697,
+    "text_shapes": 46,
+    "pictures": 2,
+    "connectors": 5,
+    "groups": 9,
+    "image_area_ratio": 0.078
+   },
+   "title_geometry": null
+  },
+  {
+   "template_id": "template_slide_049",
+   "title": "项目交付",
+   "slide_no": 49,
+   "structure": {
+    "bands": 3,
+    "max_columns": 2,
+    "section_headings": 3,
+    "body_blocks": 7,
+    "has_conclusion_band": false,
+    "has_tag": false,
+    "kind": "2-col",
+    "signature": "3带/2列×3/6图标"
+   },
+   "density": {
+    "chars": 589,
+    "text_shapes": 11,
+    "pictures": 6,
+    "connectors": 0,
+    "groups": 10,
+    "image_area_ratio": 0.169
+   },
+   "title_geometry": null
+  },
+  {
+   "template_id": "template_slide_050",
+   "title": "A公司是集研发、生产、销售、设计、安装、售后服务于一体的制造企业，近年来随着全球业务布局持续深化，在海外建立研究中心以及生产制造基地，海外业务对全价值链的人才能",
+   "slide_no": 50,
+   "structure": {
+    "bands": 1,
+    "max_columns": 1,
+    "section_headings": 2,
+    "body_blocks": 14,
+    "has_conclusion_band": false,
+    "has_tag": false,
+    "kind": "full-width blocks",
+    "signature": "1带/1列/4图标"
+   },
+   "density": {
+    "chars": 797,
+    "text_shapes": 29,
+    "pictures": 4,
+    "connectors": 1,
+    "groups": 11,
+    "image_area_ratio": 0.036
+   },
+   "title_geometry": null
+  },
+  {
+   "template_id": "template_slide_051",
+   "title": "A公司在面对当前多变、不确定、复杂化、模糊化的环境下，希望能够通过对华为干部管理实践内容的学习与交流，解决当前面临的干部管理问题： 需要什么样的干部？ 如何选拔",
+   "slide_no": 51,
+   "structure": {
+    "bands": 1,
+    "max_columns": 1,
+    "section_headings": 3,
+    "body_blocks": 10,
+    "has_conclusion_band": false,
+    "has_tag": false,
+    "kind": "full-width blocks",
+    "signature": "1带/1列/2图标"
+   },
+   "density": {
+    "chars": 543,
+    "text_shapes": 21,
+    "pictures": 2,
+    "connectors": 0,
+    "groups": 8,
+    "image_area_ratio": 0.093
+   },
+   "title_geometry": null
+  },
+  {
+   "template_id": "template_slide_052",
+   "title": "为支撑企业中长期稳健成长，帮助企业从产品战略落地视角，深入理解研发项目管理的价值和定位，多维度掌握研发项目经理的定位和能力要求，学习专业知识和技能，识别价值需求",
+   "slide_no": 52,
+   "structure": {
+    "bands": 2,
+    "max_columns": 2,
+    "section_headings": 6,
+    "body_blocks": 4,
+    "has_conclusion_band": false,
+    "has_tag": false,
+    "kind": "2-col",
+    "signature": "2带/2列×2/3图标"
+   },
+   "density": {
+    "chars": 454,
+    "text_shapes": 11,
+    "pictures": 3,
+    "connectors": 0,
+    "groups": 5,
+    "image_area_ratio": 0.285
+   },
+   "title_geometry": null
+  },
+  {
+   "template_id": "template_slide_053",
+   "title": "A公司已推行IPD产品开发流程8年，研发重量级团队的流程运作未有效落地，经过内部调研发现公司整体项目管理成熟度不足，项目管理已成为公司产品开发和竞争力提升的瓶颈",
+   "slide_no": 53,
+   "structure": {
+    "bands": 2,
+    "max_columns": 2,
+    "section_headings": 6,
+    "body_blocks": 4,
+    "has_conclusion_band": false,
+    "has_tag": false,
+    "kind": "2-col",
+    "signature": "2带/2列×2/1图标"
+   },
+   "density": {
+    "chars": 445,
+    "text_shapes": 17,
+    "pictures": 1,
+    "connectors": 5,
+    "groups": 6,
+    "image_area_ratio": 0.173
+   },
+   "title_geometry": null
+  },
+  {
+   "template_id": "template_slide_054",
+   "title": "A公司积极响应国家政策，加速推进公司国际化战略，面对复杂的国际市场竞争与属地化经营挑战，提升出海关键干部团队的全球视野与跨境运营能力已成为关键。A公司携手华为联",
+   "slide_no": 54,
+   "structure": {
+    "bands": 2,
+    "max_columns": 1,
+    "section_headings": 6,
+    "body_blocks": 7,
+    "has_conclusion_band": false,
+    "has_tag": false,
+    "kind": "full-width blocks",
+    "signature": "2带/1列×2/5图标"
+   },
+   "density": {
+    "chars": 446,
+    "text_shapes": 19,
+    "pictures": 5,
+    "connectors": 1,
+    "groups": 7,
+    "image_area_ratio": 0.068
+   },
+   "title_geometry": null
+  },
+  {
+   "template_id": "template_slide_055",
+   "title": "A公司所在集团要求：全面激发改革创新的澎湃动能，建立以研发计划书为核心的研发项目管理体系，需要以市场需求为导向，通过跨部门协作和并行工程，实现高效的新产品开发和",
+   "slide_no": 55,
+   "structure": {
+    "bands": 2,
+    "max_columns": 1,
+    "section_headings": 5,
+    "body_blocks": 7,
+    "has_conclusion_band": false,
+    "has_tag": false,
+    "kind": "full-width blocks",
+    "signature": "2带/1列×2/1图标"
+   },
+   "density": {
+    "chars": 620,
+    "text_shapes": 16,
+    "pictures": 1,
+    "connectors": 0,
+    "groups": 13,
+    "image_area_ratio": 0.064
+   },
+   "title_geometry": null
+  },
+  {
+   "template_id": "template_slide_056",
+   "title": "为深化机制改革方案落实成效，优化产品管理体系、强化产品管理实践，打造以产品总监为核心的端到端产品人才队伍，切实提升产品核心竞争力，本次A公司面向产品总监团队设计",
+   "slide_no": 56,
+   "structure": {
+    "bands": 2,
+    "max_columns": 4,
+    "section_headings": 7,
+    "body_blocks": 15,
+    "has_conclusion_band": false,
+    "has_tag": false,
+    "kind": "4-col",
+    "signature": "2带/4列×2/13图标"
+   },
+   "density": {
+    "chars": 790,
+    "text_shapes": 29,
+    "pictures": 13,
+    "connectors": 3,
+    "groups": 17,
+    "image_area_ratio": 0.304
+   },
+   "title_geometry": null
+  },
+  {
+   "template_id": "template_slide_057",
+   "title": "为深入贯彻落实集团公司战略部署要求和策略，围绕公司核心功能，坚持打造公司核心能力，构建公司自主产品体系，着力价值创造，为高质量发展做出新的贡献。在此目标的引导下",
+   "slide_no": 57,
+   "structure": {
+    "bands": 2,
+    "max_columns": 3,
+    "section_headings": 5,
+    "body_blocks": 8,
+    "has_conclusion_band": false,
+    "has_tag": false,
+    "kind": "3-col",
+    "signature": "2带/3列×2/6图标"
+   },
+   "density": {
+    "chars": 683,
+    "text_shapes": 26,
+    "pictures": 6,
+    "connectors": 2,
+    "groups": 6,
+    "image_area_ratio": 0.01
+   },
+   "title_geometry": null
+  },
+  {
+   "template_id": "template_slide_058",
+   "title": "为锚定产品经理核心任职要求、提升产品管理产出效率与质量。本次培训聚焦当前产品管理痛点，针对产品经理 “交付导向” 思维依赖、核心能力不足、评价体系单一等问题，旨",
+   "slide_no": 58,
+   "structure": {
+    "bands": 1,
+    "max_columns": 1,
+    "section_headings": 5,
+    "body_blocks": 13,
+    "has_conclusion_band": false,
+    "has_tag": false,
+    "kind": "full-width blocks",
+    "signature": "1带/1列/2图标"
+   },
+   "density": {
+    "chars": 849,
+    "text_shapes": 31,
+    "pictures": 2,
+    "connectors": 0,
+    "groups": 10,
+    "image_area_ratio": 0.031
+   },
+   "title_geometry": null
+  }
+ ]
+}
