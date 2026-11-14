@@ -1,5 +1,5 @@
 ---
-name: pptx
+name: huawei-pptx
 description: "Use this skill any time a .pptx file is involved in any way — as input, output, or both. This includes creating, reading, editing, modifying, combining, splitting, templating, and QA for PowerPoint presentations. Trigger whenever the user mentions \"deck,\" \"slides,\" \"presentation,\" or references a .pptx filename. Default to Huawei-style output when no other brand or visual style is specified, using the built-in Huawei path for dense executive slides."
 license: Proprietary. LICENSE.txt has complete terms
 ---
@@ -109,6 +109,7 @@ Default generation workflow:
    - Use the bundled `assets/huawei_ppt_master.pptx` unless the user provides another template.
    - Run `python <skill_dir>/scripts/apply_huawei_template.py *_content_pptxgenjs.pptx final_output.pptx`.
    - The template shelling script must preserve every generated slide; multi-slide decks should remain multi-slide after templating.
+   - The script migrates images, charts, embedded workbooks, hyperlinks, and slide jumps into the shell automatically; content decks may safely use all of these.
    - Preserve the template's master, footer, page number, confidentiality mark, and logo where appropriate.
    - Output the final presentation as the user-facing file.
 
@@ -265,7 +266,17 @@ Report ALL issues found, including minor ones.
 
 ## Converting to Images
 
-Convert presentations to individual slide images for visual inspection:
+Convert presentations to individual slide images for visual inspection.
+
+**Windows with PowerPoint installed** (highest fidelity — renders exactly like the end user will see it):
+
+```powershell
+powershell -File scripts/export_preview_windows.ps1 -PptxPath output.pptx -OutDir slides/
+```
+
+Produces `Slide1.JPG`, `Slide2.JPG`, ... at 1920x1080. Requires PowerPoint (COM automation); run it only when no other PowerPoint window has unsaved work, since the script quits the PowerPoint instance it creates.
+
+**LibreOffice + Poppler** (cross-platform default):
 
 ```bash
 python scripts/office/soffice.py --headless --convert-to pdf output.pptx
@@ -284,8 +295,7 @@ pdftoppm -jpeg -r 150 -f N -l N output.pdf slide-fixed
 
 ## Dependencies
 
-- `pip install "markitdown[pptx]"` - text extraction
-- `pip install Pillow` - thumbnail grids
-- `npm install -g pptxgenjs` - creating from scratch
+- `pip install -r requirements.txt` — installs `defusedxml` (XML parsing in all scripts), `markitdown[pptx]` (text extraction), and `Pillow` (thumbnail grids)
+- `npm install pptxgenjs` — creating from scratch (local install preferred over `-g`; run node scripts from the directory that has `node_modules`)
 - LibreOffice (`soffice`) - PDF conversion (auto-configured for sandboxed environments via `scripts/office/soffice.py`)
-- Poppler (`pdftoppm`) - PDF to images
+- Poppler (`pdftoppm`) - PDF to images (skip on Windows; use `scripts/export_preview_windows.ps1` instead)
